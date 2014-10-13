@@ -1,0 +1,14 @@
+[Unit]
+Description=Asterisk PBX
+
+[Service]
+WorkingDirectory=/var/spool/asterisk
+ExecStart=/usr/sbin/asterisk -f -g -p -U asterisk
+ExecReload=/usr/sbin/asterisk -rx 'module reload'
+
+ExecStop=/usr/sbin/asterisk -rx 'core stop now'
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
