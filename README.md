@@ -1,6 +1,6 @@
 # What is it?
 
-This is a *Dockerfile* and shell script to create a Docker image that will, when run, build **unofficial** Debian Jessie packages of the current Asterisk 1.2 tarball including PJSIP 2.3. 
+This is a *Dockerfile* and shell script to create a Docker image that will, when run, build **unofficial** Debian Jessie packages of the current Asterisk 12 tarball including PJSIP 2.3.
 
 # Usage
 
