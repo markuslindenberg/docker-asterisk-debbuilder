@@ -3,7 +3,7 @@
 set -x -e
 
 pjsip_url="http://www.pjsip.org/release/2.3/pjproject-2.3.tar.bz2"
-asterisk_url="http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-12-current.tar.gz"
+asterisk_url="http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-13-current.tar.gz"
 
 mountdir="/output"
 builddir="/usr/src/build"
